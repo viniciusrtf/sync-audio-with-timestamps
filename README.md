@@ -57,7 +57,7 @@ This command reads a manifest file, compares the duration of each audio clip to 
 
 **Process:**
 1.  For each entry, it calculates the required speed factor (`actual_duration / manifest_duration`).
-2.  The speed factor is clamped to a safe range (`0.8`–`1.5`) to avoid heavy distortion.
+2.  The speed factor is clamped to a safe range (`0.9`–`1.25`) to avoid heavy distortion.
 3.  A new audio file is created with the `_synced` suffix (e.g., `000_synced.wav`).
 4.  After processing all entries, a new manifest file is created with the `_synced` suffix (e.g., `manifest_synced.txt`) containing the paths to the new audio files.
 

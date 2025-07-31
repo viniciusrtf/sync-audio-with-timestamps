@@ -12,8 +12,8 @@ import (
 )
 
 const (
-	minSpeed = 0.8
-	maxSpeed = 1.5
+	minSpeed = 0.9
+	maxSpeed = 1.25
 	// Epsilon is a small value to handle floating-point inaccuracies.
 	epsilon = 0.01
 )
